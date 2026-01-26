@@ -7,4 +7,4 @@ function getPokemons(take = 151) {
     return fetch(url).then((response) => response.json());
 }
 
-export default { getPokemons };
+export default getPokemons;

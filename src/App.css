@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+.main-content{
+  padding: 15px;
+}
+
 .pr-15 {
   padding-right: 15px;
 }
@@ -44,8 +48,52 @@
 }
 
 .filter-bar {
-  border-left: 3px solid #dfe5ee;
+  border-right: 3px solid #dfe5ee;
 }
+
+
+
+/*******************************************/
+/*Inputs laterales y sus colores*/
+
+.left-input-container{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input-type{
+  border-radius: 20px !important;
+  border-color: transparent !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input-fuego{
+    color: white !important;
+    background-color: red !important;
+}
+
+.input-psiquico{
+    color: white !important;
+    background-color: purple !important;
+}
+
+.input-planta{
+    color: white !important;
+    background-color: green !important;
+}
+
+.input-agua{
+    color: white !important;
+    background-color: blue !important;
+}
+
+/***/
+
 
 @media (max-width: 991px) {
   .bg-navbar-orange {
